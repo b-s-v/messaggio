@@ -16,3 +16,1429 @@
 [Fri Mar  6 11:19:29 2020] [debug] Rendering cached template "example/welcome.html.ep".
 [Fri Mar  6 11:19:29 2020] [debug] Rendering cached template "layouts/default.html.ep".
 [Fri Mar  6 11:19:29 2020] [debug] 200 OK (0.002061s, 485.201/s).
+[Fri Mar  6 20:05:07 2020] [info] Listening at "http://localhost:3030".
+[Fri Mar  6 20:05:16 2020] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar  6 20:05:16 2020] [debug] GET "/".
+[Fri Mar  6 20:05:16 2020] [debug] Routing to controller "MessaggioEmail::Controller::Example" and action "welcome".
+[Fri Mar  6 20:05:16 2020] [debug] Rendering template "example/welcome.html.ep".
+[Fri Mar  6 20:05:16 2020] [debug] Rendering template "layouts/default.html.ep".
+[Fri Mar  6 20:05:16 2020] [debug] 200 OK (0.010125s, 98.765/s).
+[Sat Mar  7 11:37:18 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 11:37:18 2020] [debug] GET "/".
+[Sat Mar  7 11:37:18 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 11:37:18 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 11:37:18 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:37:18 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:37:18 2020] [debug] 404 Not Found (0.053232s, 18.786/s).
+[Sat Mar  7 11:37:29 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 11:37:29 2020] [debug] GET "/".
+[Sat Mar  7 11:37:29 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 11:37:29 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 11:37:29 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:37:29 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:37:29 2020] [debug] 404 Not Found (0.036387s, 27.482/s).
+[Sat Mar  7 11:37:31 2020] [debug] GET "/".
+[Sat Mar  7 11:37:31 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 11:37:31 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 11:37:31 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:37:31 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:37:31 2020] [debug] 404 Not Found (0.009062s, 110.351/s).
+[Sat Mar  7 11:39:33 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 11:39:33 2020] [debug] GET "/".
+[Sat Mar  7 11:39:33 2020] [debug] Controller "MessaggioEmail::Notif" does not exist.
+[Sat Mar  7 11:39:33 2020] [debug] Template "notif/welcome.html.ep" not found.
+[Sat Mar  7 11:39:33 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 11:39:33 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 11:39:33 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:39:33 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:39:33 2020] [debug] 404 Not Found (0.043756s, 22.854/s).
+[Sat Mar  7 11:40:05 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 11:40:05 2020] [debug] GET "/".
+[Sat Mar  7 11:40:05 2020] [debug] Controller "MessaggioEmail::Notif" does not exist.
+[Sat Mar  7 11:40:05 2020] [debug] Template "notif/welcome.html.ep" not found.
+[Sat Mar  7 11:40:05 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 11:40:05 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 11:40:05 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:40:05 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:40:05 2020] [debug] 404 Not Found (0.055612s, 17.982/s).
+[Sat Mar  7 11:40:15 2020] [debug] GET "/".
+[Sat Mar  7 11:40:15 2020] [debug] Controller "MessaggioEmail::Notif" does not exist.
+[Sat Mar  7 11:40:15 2020] [debug] Template "notif/welcome.html.ep" not found.
+[Sat Mar  7 11:40:15 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 11:40:15 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 11:40:15 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:40:15 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:40:15 2020] [debug] 404 Not Found (0.015092s, 66.260/s).
+[Sat Mar  7 11:40:33 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 11:40:33 2020] [debug] GET "/".
+[Sat Mar  7 11:40:33 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 11:40:33 2020] [debug] Action not found in controller.
+[Sat Mar  7 11:40:33 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 11:40:33 2020] [error] Template "/home/bsv/sites/messagio_email/templates/notifs/welcome.html.ep" has invalid encoding at /usr/share/perl5/Mojolicious/Plugin/EPLRenderer.pm line 39.
+
+[Sat Mar  7 11:40:33 2020] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar  7 11:40:33 2020] [debug] Template "exception.html.ep" not found.
+[Sat Mar  7 11:40:33 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:40:33 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:40:33 2020] [debug] 500 Internal Server Error (0.041514s, 24.088/s).
+[Sat Mar  7 11:41:20 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 11:41:20 2020] [debug] GET "/".
+[Sat Mar  7 11:41:20 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 11:41:20 2020] [debug] Action not found in controller.
+[Sat Mar  7 11:41:20 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 11:41:20 2020] [error] syntax error at template notifs/welcome.html.ep line 3, near "head2 'Сервис отправки сообщений'"
+Global symbol "$head2" requires explicit package name at template notifs/welcome.html.ep line 4.
+1: % layout 'default';
+2: % title 'Тестовое задание для MESSAGGIO';
+3: % head2 'Сервис отправки сообщений';
+4: <h2><%= $head2 %></h2>
+5: <form method="post" action="/notifs">
+6:     <input type="text" name="sender" /><br />
+7:     <input type="text" name="to" /><br />
+8:     <input type="text" name="subject" /><br />
+
+[Sat Mar  7 11:41:20 2020] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar  7 11:41:20 2020] [debug] Template "exception.html.ep" not found.
+[Sat Mar  7 11:41:20 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 11:41:20 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 11:41:20 2020] [debug] 500 Internal Server Error (0.059699s, 16.751/s).
+[Sat Mar  7 12:00:28 2020] [debug] GET "/".
+[Sat Mar  7 12:00:28 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:00:28 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:00:28 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:00:28 2020] [error] syntax error at template notifs/welcome.html.ep line 3, near "head2 'Сервис отправки сообщений'"
+Global symbol "$head2" requires explicit package name at template notifs/welcome.html.ep line 4.
+1: % layout 'default';
+2: % title 'Тестовое задание для MESSAGGIO';
+3: % head2 'Сервис отправки сообщений';
+4: <h2><%= $head2 %></h2>
+5: <form method="post" action="/notifs">
+6:     <input type="text" name="sender" /><br />
+7:     <input type="text" name="to" /><br />
+8:     <input type="text" name="subject" /><br />
+
+[Sat Mar  7 12:00:28 2020] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar  7 12:00:28 2020] [debug] Template "exception.html.ep" not found.
+[Sat Mar  7 12:00:28 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 12:00:28 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 12:00:28 2020] [debug] 500 Internal Server Error (0.018410s, 54.318/s).
+[Sat Mar  7 12:07:31 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:07:31 2020] [debug] GET "/".
+[Sat Mar  7 12:07:31 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:07:31 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:07:31 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:07:31 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:07:31 2020] [debug] 200 OK (0.006031s, 165.810/s).
+[Sat Mar  7 12:13:14 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:13:14 2020] [debug] GET "/".
+[Sat Mar  7 12:13:14 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:13:14 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:13:14 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:13:14 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:13:14 2020] [debug] 200 OK (0.011364s, 87.997/s).
+[Sat Mar  7 12:15:54 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:15:54 2020] [debug] GET "/".
+[Sat Mar  7 12:15:54 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:15:54 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:15:54 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:15:54 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:15:54 2020] [debug] 200 OK (0.010397s, 96.182/s).
+[Sat Mar  7 12:16:51 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:16:51 2020] [debug] GET "/".
+[Sat Mar  7 12:16:51 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:16:51 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:16:51 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:16:51 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:16:51 2020] [debug] 200 OK (0.006150s, 162.602/s).
+[Sat Mar  7 12:19:49 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:19:49 2020] [debug] GET "/".
+[Sat Mar  7 12:19:49 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:19:49 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:19:49 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:19:49 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:19:49 2020] [debug] 200 OK (0.010495s, 95.283/s).
+[Sat Mar  7 12:22:59 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:22:59 2020] [debug] GET "/".
+[Sat Mar  7 12:22:59 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:22:59 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:22:59 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:22:59 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:22:59 2020] [debug] 200 OK (0.009845s, 101.574/s).
+[Sat Mar  7 12:23:50 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:23:50 2020] [debug] GET "/".
+[Sat Mar  7 12:23:50 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:23:50 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:23:50 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:23:50 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:23:50 2020] [debug] 200 OK (0.010287s, 97.210/s).
+[Sat Mar  7 12:43:18 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:43:18 2020] [debug] GET "/".
+[Sat Mar  7 12:43:18 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:43:18 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:43:18 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:43:18 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:43:18 2020] [debug] 200 OK (0.009673s, 103.381/s).
+[Sat Mar  7 12:43:37 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 12:43:37 2020] [debug] GET "/".
+[Sat Mar  7 12:43:37 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 12:43:37 2020] [debug] Action not found in controller.
+[Sat Mar  7 12:43:37 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 12:43:37 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 12:43:37 2020] [debug] 200 OK (0.010798s, 92.610/s).
+[Sat Mar  7 21:00:38 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:00:38 2020] [debug] GET "/".
+[Sat Mar  7 21:00:38 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:00:38 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:00:38 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:00:38 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:00:38 2020] [debug] 200 OK (0.011021s, 90.736/s).
+[Sat Mar  7 21:01:46 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:01:46 2020] [debug] GET "/".
+[Sat Mar  7 21:01:46 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:01:46 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:01:46 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:01:46 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:01:46 2020] [debug] 200 OK (0.010627s, 94.100/s).
+[Sat Mar  7 21:01:52 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:01:52 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:01:52 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:01:52 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:01:52 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:01:52 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:01:52 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:01:52 2020] [debug] 404 Not Found (0.033504s, 29.847/s).
+[Sat Mar  7 21:03:45 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:03:45 2020] [debug] GET "/".
+[Sat Mar  7 21:03:45 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:03:45 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:03:45 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:03:45 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:03:45 2020] [debug] 200 OK (0.009726s, 102.817/s).
+[Sat Mar  7 21:03:47 2020] [debug] GET "/".
+[Sat Mar  7 21:03:47 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:03:47 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:03:47 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:03:47 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:03:47 2020] [debug] 200 OK (0.002138s, 467.727/s).
+[Sat Mar  7 21:03:48 2020] [debug] GET "/".
+[Sat Mar  7 21:03:48 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:03:48 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:03:48 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:03:48 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:03:48 2020] [debug] 200 OK (0.001510s, 662.252/s).
+[Sat Mar  7 21:08:12 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:08:12 2020] [debug] GET "/".
+[Sat Mar  7 21:08:12 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:08:12 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:08:12 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:08:12 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:08:12 2020] [debug] 200 OK (0.007812s, 128.008/s).
+[Sat Mar  7 21:08:37 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:08:37 2020] [debug] GET "/".
+[Sat Mar  7 21:08:37 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:08:37 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:08:37 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:08:37 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:08:37 2020] [debug] 200 OK (0.007418s, 134.807/s).
+[Sat Mar  7 21:08:39 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:08:39 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:08:39 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:08:39 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:08:39 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:08:39 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:08:39 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:08:39 2020] [debug] 404 Not Found (0.039348s, 25.414/s).
+[Sat Mar  7 21:12:59 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:12:59 2020] [debug] GET "/".
+[Sat Mar  7 21:12:59 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:12:59 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:12:59 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:12:59 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:12:59 2020] [debug] 200 OK (0.010606s, 94.286/s).
+[Sat Mar  7 21:14:16 2020] [debug] GET "/".
+[Sat Mar  7 21:14:16 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:14:16 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:14:16 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:14:16 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:14:16 2020] [debug] 200 OK (0.001785s, 560.224/s).
+[Sat Mar  7 21:14:23 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:14:23 2020] [debug] GET "/".
+[Sat Mar  7 21:14:23 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:14:23 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:14:23 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:14:23 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:14:24 2020] [debug] 200 OK (0.008406s, 118.963/s).
+[Sat Mar  7 21:14:40 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:14:40 2020] [debug] GET "/".
+[Sat Mar  7 21:14:40 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:14:40 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:14:40 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:14:40 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:14:40 2020] [debug] 200 OK (0.012559s, 79.624/s).
+[Sat Mar  7 21:19:07 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:19:07 2020] [debug] GET "/".
+[Sat Mar  7 21:19:07 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:19:07 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:19:07 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:19:07 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:19:07 2020] [debug] 200 OK (0.010086s, 99.147/s).
+[Sat Mar  7 21:19:11 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:19:11 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:19:11 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:19:11 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:19:11 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:19:11 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:19:11 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:19:11 2020] [debug] 404 Not Found (0.057228s, 17.474/s).
+[Sat Mar  7 21:19:18 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:19:18 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:19:18 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:19:18 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:19:18 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:19:18 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:19:18 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:19:18 2020] [debug] 404 Not Found (0.012658s, 79.001/s).
+[Sat Mar  7 21:22:13 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:22:13 2020] [debug] GET "/".
+[Sat Mar  7 21:22:13 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:22:13 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:22:13 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:22:13 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:22:13 2020] [debug] 200 OK (0.011960s, 83.612/s).
+[Sat Mar  7 21:22:20 2020] [debug] POST "/some.php".
+[Sat Mar  7 21:22:20 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:22:20 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:22:20 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:22:20 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:22:20 2020] [debug] 404 Not Found (0.034550s, 28.944/s).
+[Sat Mar  7 21:22:28 2020] [debug] POST "/some.php".
+[Sat Mar  7 21:22:28 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:22:28 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:22:28 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:22:28 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:22:28 2020] [debug] 404 Not Found (0.013126s, 76.185/s).
+[Sat Mar  7 21:22:55 2020] [debug] GET "/".
+[Sat Mar  7 21:22:55 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:22:55 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:22:55 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:22:55 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:22:55 2020] [debug] 200 OK (0.001459s, 685.401/s).
+[Sat Mar  7 21:22:58 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:22:58 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:22:58 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:22:58 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:22:58 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:22:58 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:22:58 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:22:58 2020] [debug] 404 Not Found (0.041079s, 24.343/s).
+[Sat Mar  7 21:23:02 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:23:02 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:23:02 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:23:02 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:23:02 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:23:02 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:23:02 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:23:02 2020] [debug] 404 Not Found (0.009015s, 110.926/s).
+[Sat Mar  7 21:24:09 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:24:09 2020] [debug] GET "/".
+[Sat Mar  7 21:24:09 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:24:09 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:24:09 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:24:09 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:24:09 2020] [debug] 200 OK (0.015409s, 64.897/s).
+[Sat Mar  7 21:24:21 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:24:21 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:24:21 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:24:21 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:24:21 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:24:21 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:24:21 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:24:21 2020] [debug] 404 Not Found (0.049937s, 20.025/s).
+[Sat Mar  7 21:24:44 2020] [debug] GET "/".
+[Sat Mar  7 21:24:44 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:24:44 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:24:44 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:24:44 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:24:44 2020] [debug] 200 OK (0.001284s, 778.816/s).
+[Sat Mar  7 21:24:47 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:24:47 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:24:47 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:24:47 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:24:47 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:24:47 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:24:47 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:24:47 2020] [debug] 404 Not Found (0.013620s, 73.421/s).
+[Sat Mar  7 21:25:12 2020] [debug] GET "/".
+[Sat Mar  7 21:25:12 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:25:12 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:25:12 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:25:12 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:25:12 2020] [debug] 200 OK (0.001187s, 842.460/s).
+[Sat Mar  7 21:25:16 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:25:16 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:25:16 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:25:16 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:25:16 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:25:16 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:25:16 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:25:16 2020] [debug] 404 Not Found (0.013603s, 73.513/s).
+[Sat Mar  7 21:35:41 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:35:41 2020] [debug] GET "/".
+[Sat Mar  7 21:35:41 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:35:41 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:35:41 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:35:41 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:35:41 2020] [debug] 200 OK (0.012442s, 80.373/s).
+[Sat Mar  7 21:35:45 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:35:45 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:35:45 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:35:45 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:35:45 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:35:45 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:35:45 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:35:45 2020] [debug] 404 Not Found (0.057047s, 17.529/s).
+[Sat Mar  7 21:36:14 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:36:14 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:36:14 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:36:14 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:36:14 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:36:14 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:36:14 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:36:14 2020] [debug] 404 Not Found (0.014315s, 69.857/s).
+[Sat Mar  7 21:41:16 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:41:16 2020] [debug] GET "/".
+[Sat Mar  7 21:41:16 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:41:16 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:41:16 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:41:16 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:41:16 2020] [debug] 200 OK (0.010308s, 97.012/s).
+[Sat Mar  7 21:41:39 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:41:39 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:41:39 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:41:39 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:41:39 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:41:39 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:41:39 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:41:39 2020] [debug] 404 Not Found (0.055787s, 17.925/s).
+[Sat Mar  7 21:42:00 2020] [debug] GET "/".
+[Sat Mar  7 21:42:00 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:42:00 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:42:00 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:42:00 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:42:00 2020] [debug] 200 OK (0.001037s, 964.320/s).
+[Sat Mar  7 21:42:05 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:42:05 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:42:05 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:42:05 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:42:05 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:42:05 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:42:05 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:42:05 2020] [debug] 404 Not Found (0.015775s, 63.391/s).
+[Sat Mar  7 21:43:47 2020] [debug] GET "/".
+[Sat Mar  7 21:43:47 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:43:47 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:43:47 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:43:47 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:43:47 2020] [debug] 200 OK (0.001524s, 656.168/s).
+[Sat Mar  7 21:44:56 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:44:56 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:44:56 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:44:56 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:44:56 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:44:56 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:44:56 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:44:56 2020] [debug] 404 Not Found (0.013974s, 71.561/s).
+[Sat Mar  7 21:45:55 2020] [debug] GET "/".
+[Sat Mar  7 21:45:55 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:45:55 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:45:55 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:45:55 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:45:55 2020] [debug] 200 OK (0.001585s, 630.915/s).
+[Sat Mar  7 21:45:58 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:45:58 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:45:58 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:45:58 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:45:58 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:45:58 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:45:58 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:45:58 2020] [debug] 404 Not Found (0.016157s, 61.893/s).
+[Sat Mar  7 21:47:21 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 21:47:21 2020] [debug] GET "/".
+[Sat Mar  7 21:47:21 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:47:21 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:47:21 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 21:47:21 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 21:47:21 2020] [debug] 200 OK (0.021559s, 46.384/s).
+[Sat Mar  7 21:47:53 2020] [debug] GET "/".
+[Sat Mar  7 21:47:53 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 21:47:53 2020] [debug] Action not found in controller.
+[Sat Mar  7 21:47:53 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 21:47:53 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 21:47:53 2020] [debug] 200 OK (0.001003s, 997.009/s).
+[Sat Mar  7 21:47:58 2020] [debug] POST "/notifs".
+[Sat Mar  7 21:47:58 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 21:47:58 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 21:47:58 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 21:47:58 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 21:47:58 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 21:47:58 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 21:47:58 2020] [debug] 404 Not Found (0.039376s, 25.396/s).
+[Sat Mar  7 22:17:40 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 22:17:40 2020] [debug] GET "/".
+[Sat Mar  7 22:17:40 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 22:17:40 2020] [debug] Action not found in controller.
+[Sat Mar  7 22:17:40 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 22:17:40 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 22:17:40 2020] [debug] 200 OK (0.006606s, 151.378/s).
+[Sat Mar  7 22:17:43 2020] [debug] POST "/notifs".
+[Sat Mar  7 22:17:43 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 22:17:43 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 22:17:43 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 22:17:43 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 22:17:43 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 22:17:43 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 22:17:43 2020] [debug] 404 Not Found (0.037362s, 26.765/s).
+[Sat Mar  7 22:18:05 2020] [debug] GET "/".
+[Sat Mar  7 22:18:05 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 22:18:05 2020] [debug] Action not found in controller.
+[Sat Mar  7 22:18:05 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 22:18:05 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 22:18:05 2020] [debug] 200 OK (0.002015s, 496.278/s).
+[Sat Mar  7 22:18:08 2020] [debug] POST "/notifs".
+[Sat Mar  7 22:18:08 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 22:18:08 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 22:18:08 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 22:18:08 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 22:18:08 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 22:18:08 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 22:18:08 2020] [debug] 404 Not Found (0.012517s, 79.891/s).
+[Sat Mar  7 22:20:48 2020] [debug] GET "/".
+[Sat Mar  7 22:20:48 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 22:20:48 2020] [debug] Action not found in controller.
+[Sat Mar  7 22:20:48 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 22:20:48 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 22:20:48 2020] [debug] 200 OK (0.000949s, 1053.741/s).
+[Sat Mar  7 22:20:52 2020] [debug] POST "/notifs".
+[Sat Mar  7 22:20:52 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 22:20:52 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 22:20:52 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 22:20:52 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 22:20:52 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 22:20:52 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 22:20:52 2020] [debug] 404 Not Found (0.008634s, 115.821/s).
+[Sat Mar  7 22:22:06 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  7 22:22:06 2020] [debug] GET "/".
+[Sat Mar  7 22:22:06 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 22:22:06 2020] [debug] Action not found in controller.
+[Sat Mar  7 22:22:06 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sat Mar  7 22:22:06 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  7 22:22:06 2020] [debug] 200 OK (0.015297s, 65.372/s).
+[Sat Mar  7 22:22:08 2020] [debug] POST "/notifs".
+[Sat Mar  7 22:22:08 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 22:22:08 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 22:22:08 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 22:22:08 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 22:22:08 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 22:22:08 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 22:22:08 2020] [debug] 404 Not Found (0.060464s, 16.539/s).
+[Sat Mar  7 22:48:01 2020] [debug] GET "/".
+[Sat Mar  7 22:48:01 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 22:48:01 2020] [debug] Action not found in controller.
+[Sat Mar  7 22:48:01 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 22:48:01 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 22:48:01 2020] [debug] 200 OK (0.001178s, 848.896/s).
+[Sat Mar  7 22:48:08 2020] [debug] POST "/notifs".
+[Sat Mar  7 22:48:08 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 22:48:08 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 22:48:08 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 22:48:08 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 22:48:08 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 22:48:08 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 22:48:08 2020] [debug] 404 Not Found (0.017075s, 58.565/s).
+[Sat Mar  7 22:58:22 2020] [debug] GET "/".
+[Sat Mar  7 22:58:22 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sat Mar  7 22:58:22 2020] [debug] Action not found in controller.
+[Sat Mar  7 22:58:22 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sat Mar  7 22:58:22 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  7 22:58:22 2020] [debug] 200 OK (0.001557s, 642.261/s).
+[Sat Mar  7 22:58:27 2020] [debug] POST "/notifs".
+[Sat Mar  7 22:58:27 2020] [debug] Action "send" is not allowed.
+[Sat Mar  7 22:58:27 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sat Mar  7 22:58:27 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  7 22:58:27 2020] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  7 22:58:27 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Mar  7 22:58:27 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Mar  7 22:58:27 2020] [debug] 404 Not Found (0.012231s, 81.759/s).
+[Sun Mar  8 14:30:12 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 14:30:12 2020] [debug] GET "/".
+[Sun Mar  8 14:30:12 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:30:12 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:30:12 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 14:30:12 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 14:30:12 2020] [debug] 200 OK (0.010323s, 96.871/s).
+[Sun Mar  8 14:30:15 2020] [debug] GET "/".
+[Sun Mar  8 14:30:15 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:30:15 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:30:15 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 14:30:15 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 14:30:15 2020] [debug] 200 OK (0.001530s, 653.595/s).
+[Sun Mar  8 14:30:27 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 14:30:27 2020] [debug] GET "/".
+[Sun Mar  8 14:30:27 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:30:27 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:30:27 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 14:30:27 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 14:30:27 2020] [debug] 200 OK (0.017846s, 56.035/s).
+[Sun Mar  8 14:30:45 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 14:30:45 2020] [debug] GET "/".
+[Sun Mar  8 14:30:45 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:30:45 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:30:45 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 14:30:45 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 14:30:45 2020] [debug] 200 OK (0.007623s, 131.182/s).
+[Sun Mar  8 14:35:35 2020] [debug] GET "/".
+[Sun Mar  8 14:35:35 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:35:35 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:35:35 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 14:35:35 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 14:35:35 2020] [debug] 200 OK (0.001501s, 666.223/s).
+[Sun Mar  8 14:35:38 2020] [debug] GET "/".
+[Sun Mar  8 14:35:38 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:35:38 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:35:38 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 14:35:38 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 14:35:38 2020] [debug] 200 OK (0.000982s, 1018.330/s).
+[Sun Mar  8 14:35:49 2020] [debug] POST "/notifs".
+[Sun Mar  8 14:35:49 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 14:35:49 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 14:35:49 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 14:35:49 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 14:35:49 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 14:35:49 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 14:35:49 2020] [debug] 404 Not Found (0.054728s, 18.272/s).
+[Sun Mar  8 14:36:55 2020] [debug] GET "/".
+[Sun Mar  8 14:36:55 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:36:55 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:36:55 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 14:36:55 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 14:36:55 2020] [debug] 200 OK (0.001599s, 625.391/s).
+[Sun Mar  8 14:37:14 2020] [debug] POST "/notifs".
+[Sun Mar  8 14:37:14 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 14:37:14 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 14:37:14 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 14:37:14 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 14:37:14 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 14:37:14 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 14:37:14 2020] [debug] 404 Not Found (0.014253s, 70.161/s).
+[Sun Mar  8 14:37:20 2020] [debug] GET "/".
+[Sun Mar  8 14:37:20 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 14:37:20 2020] [debug] Action not found in controller.
+[Sun Mar  8 14:37:20 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 14:37:20 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 14:37:20 2020] [debug] 200 OK (0.001064s, 939.850/s).
+[Sun Mar  8 14:37:24 2020] [debug] POST "/notifs".
+[Sun Mar  8 14:37:24 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 14:37:24 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 14:37:24 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 14:37:24 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 14:37:24 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 14:37:24 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 14:37:24 2020] [debug] 404 Not Found (0.008223s, 121.610/s).
+[Sun Mar  8 14:38:01 2020] [debug] POST "/notifs".
+[Sun Mar  8 14:38:01 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 14:38:01 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 14:38:01 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 14:38:01 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 14:38:01 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 14:38:01 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 14:38:01 2020] [debug] 404 Not Found (0.014608s, 68.456/s).
+[Sun Mar  8 15:05:19 2020] [debug] GET "/".
+[Sun Mar  8 15:05:19 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 15:05:19 2020] [debug] Action not found in controller.
+[Sun Mar  8 15:05:19 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 15:05:19 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 15:05:19 2020] [debug] 200 OK (0.001661s, 602.047/s).
+[Sun Mar  8 15:59:47 2020] [debug] GET "/".
+[Sun Mar  8 15:59:47 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 15:59:47 2020] [debug] Action not found in controller.
+[Sun Mar  8 15:59:47 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 15:59:47 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 15:59:47 2020] [debug] 200 OK (0.001596s, 626.566/s).
+[Sun Mar  8 15:59:54 2020] [debug] POST "/notifs".
+[Sun Mar  8 15:59:54 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 15:59:54 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 15:59:54 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 15:59:54 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 15:59:54 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 15:59:54 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 15:59:54 2020] [debug] 404 Not Found (0.014377s, 69.556/s).
+[Sun Mar  8 16:02:21 2020] [debug] GET "/".
+[Sun Mar  8 16:02:21 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 16:02:21 2020] [debug] Action not found in controller.
+[Sun Mar  8 16:02:21 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 16:02:21 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 16:02:21 2020] [debug] 200 OK (0.001533s, 652.316/s).
+[Sun Mar  8 16:02:24 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:02:24 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:02:24 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:02:24 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:02:24 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:02:24 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:02:24 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:02:24 2020] [debug] 404 Not Found (0.013297s, 75.205/s).
+[Sun Mar  8 16:03:20 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 16:03:20 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:03:20 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:03:20 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:03:20 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:03:20 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:03:20 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:03:20 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:03:20 2020] [debug] 404 Not Found (0.058935s, 16.968/s).
+[Sun Mar  8 16:06:28 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 16:06:28 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:06:28 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:06:28 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:06:28 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:06:28 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:06:28 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:06:28 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:06:28 2020] [debug] 404 Not Found (0.041966s, 23.829/s).
+[Sun Mar  8 16:12:54 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 16:12:54 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:12:54 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:12:54 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:12:54 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:12:54 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:12:54 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:12:54 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:12:54 2020] [debug] 404 Not Found (0.041523s, 24.083/s).
+[Sun Mar  8 16:14:06 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 16:14:06 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:14:06 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:14:06 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:14:06 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:14:06 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:14:06 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:14:06 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:14:06 2020] [debug] 404 Not Found (0.056886s, 17.579/s).
+[Sun Mar  8 16:14:25 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:14:25 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:14:25 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:14:25 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:14:25 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:14:25 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:14:25 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:14:25 2020] [debug] 404 Not Found (0.008326s, 120.106/s).
+[Sun Mar  8 16:15:16 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 16:15:16 2020] [debug] GET "/".
+[Sun Mar  8 16:15:16 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 16:15:16 2020] [debug] Action not found in controller.
+[Sun Mar  8 16:15:16 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 16:15:16 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 16:15:16 2020] [debug] 200 OK (0.008121s, 123.138/s).
+[Sun Mar  8 16:15:19 2020] [debug] POST "/notifs".
+[Sun Mar  8 16:15:19 2020] [debug] Action "send" is not allowed.
+[Sun Mar  8 16:15:19 2020] [debug] Template "notifs/send.html.ep" not found.
+[Sun Mar  8 16:15:19 2020] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar  8 16:15:19 2020] [debug] Template "not_found.html.ep" not found.
+[Sun Mar  8 16:15:19 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Mar  8 16:15:19 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Mar  8 16:15:19 2020] [debug] 404 Not Found (0.055614s, 17.981/s).
+[Sun Mar  8 16:21:16 2020] [debug] GET "/".
+[Sun Mar  8 16:21:16 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 16:21:16 2020] [debug] Action not found in controller.
+[Sun Mar  8 16:21:16 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 16:21:16 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 16:21:16 2020] [debug] 200 OK (0.001562s, 640.205/s).
+[Sun Mar  8 21:22:40 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 21:22:40 2020] [debug] GET "/".
+[Sun Mar  8 21:22:40 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:22:40 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:22:40 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 21:22:40 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 21:22:40 2020] [debug] 200 OK (0.008278s, 120.802/s).
+[Sun Mar  8 21:23:35 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 21:23:35 2020] [debug] GET "/".
+[Sun Mar  8 21:23:35 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:23:35 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:23:35 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 21:23:35 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 21:23:35 2020] [debug] 200 OK (0.010882s, 91.895/s).
+[Sun Mar  8 21:24:06 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 21:24:06 2020] [debug] GET "/".
+[Sun Mar  8 21:24:06 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:24:06 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:24:06 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 21:24:06 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 21:24:06 2020] [debug] 200 OK (0.012745s, 78.462/s).
+[Sun Mar  8 21:33:31 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 21:33:31 2020] [debug] GET "/".
+[Sun Mar  8 21:33:31 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:33:31 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:33:31 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 21:33:31 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 21:33:31 2020] [debug] 200 OK (0.008041s, 124.363/s).
+[Sun Mar  8 21:33:51 2020] [debug] GET "/".
+[Sun Mar  8 21:33:51 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:33:51 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:33:51 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:33:51 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:33:51 2020] [debug] 200 OK (0.001584s, 631.313/s).
+[Sun Mar  8 21:45:33 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 21:45:33 2020] [debug] GET "/".
+[Sun Mar  8 21:45:33 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:45:33 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:45:33 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 21:45:33 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 21:45:33 2020] [debug] 200 OK (0.011195s, 89.326/s).
+[Sun Mar  8 21:47:33 2020] [debug] GET "/".
+[Sun Mar  8 21:47:33 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:47:33 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:47:33 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:47:33 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:47:33 2020] [debug] 200 OK (0.000968s, 1033.058/s).
+[Sun Mar  8 21:48:51 2020] [debug] GET "/".
+[Sun Mar  8 21:48:51 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:48:51 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:48:51 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:48:51 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:48:51 2020] [debug] 200 OK (0.001061s, 942.507/s).
+[Sun Mar  8 21:50:26 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 21:50:26 2020] [debug] GET "/".
+[Sun Mar  8 21:50:26 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:50:26 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:50:26 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 21:50:26 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 21:50:26 2020] [debug] 200 OK (0.007466s, 133.941/s).
+[Sun Mar  8 21:50:51 2020] [debug] GET "/".
+[Sun Mar  8 21:50:51 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:50:51 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:50:51 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:50:51 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:50:51 2020] [debug] 200 OK (0.001500s, 666.667/s).
+[Sun Mar  8 21:51:52 2020] [debug] GET "/".
+[Sun Mar  8 21:51:52 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:51:52 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:51:52 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:51:52 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:51:52 2020] [debug] 200 OK (0.001765s, 566.572/s).
+[Sun Mar  8 21:52:52 2020] [debug] GET "/".
+[Sun Mar  8 21:52:52 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:52:52 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:52:52 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:52:52 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:52:52 2020] [debug] 200 OK (0.001119s, 893.655/s).
+[Sun Mar  8 21:53:29 2020] [debug] GET "/".
+[Sun Mar  8 21:53:29 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 21:53:29 2020] [debug] Action not found in controller.
+[Sun Mar  8 21:53:29 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 21:53:29 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 21:53:29 2020] [debug] 200 OK (0.001573s, 635.728/s).
+[Sun Mar  8 22:18:31 2020] [debug] GET "/".
+[Sun Mar  8 22:18:31 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:18:31 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:18:31 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 22:18:31 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 22:18:31 2020] [debug] 200 OK (0.001214s, 823.723/s).
+[Sun Mar  8 22:18:57 2020] [debug] GET "/".
+[Sun Mar  8 22:18:57 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:18:57 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:18:57 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 22:18:57 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 22:18:57 2020] [debug] 200 OK (0.001584s, 631.313/s).
+[Sun Mar  8 22:19:51 2020] [debug] GET "/".
+[Sun Mar  8 22:19:51 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:19:51 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:19:51 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 22:19:51 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 22:19:51 2020] [debug] 200 OK (0.001158s, 863.558/s).
+[Sun Mar  8 22:20:26 2020] [debug] GET "/".
+[Sun Mar  8 22:20:26 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:20:26 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:20:26 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 22:20:26 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 22:20:26 2020] [debug] 200 OK (0.001505s, 664.452/s).
+[Sun Mar  8 22:21:08 2020] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar  8 22:21:08 2020] [debug] GET "/".
+[Sun Mar  8 22:21:08 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:21:08 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:21:08 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Sun Mar  8 22:21:08 2020] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar  8 22:21:08 2020] [debug] 200 OK (0.012522s, 79.859/s).
+[Sun Mar  8 22:56:31 2020] [debug] GET "/".
+[Sun Mar  8 22:56:31 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:56:31 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:56:31 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 22:56:31 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 22:56:31 2020] [debug] 200 OK (0.001548s, 645.995/s).
+[Sun Mar  8 22:57:14 2020] [debug] GET "/".
+[Sun Mar  8 22:57:14 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Sun Mar  8 22:57:14 2020] [debug] Action not found in controller.
+[Sun Mar  8 22:57:14 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Sun Mar  8 22:57:14 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar  8 22:57:14 2020] [debug] 200 OK (0.001647s, 607.165/s).
+[Mon Mar  9 14:24:27 2020] [debug] GET "/".
+[Mon Mar  9 14:24:27 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:24:27 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:24:27 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:24:27 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:24:27 2020] [debug] 200 OK (0.001545s, 647.249/s).
+[Mon Mar  9 14:28:26 2020] [debug] GET "/".
+[Mon Mar  9 14:28:26 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:28:26 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:28:26 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:28:26 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:28:26 2020] [debug] 200 OK (0.002108s, 474.383/s).
+[Mon Mar  9 14:30:01 2020] [debug] GET "/".
+[Mon Mar  9 14:30:01 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:30:01 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:30:01 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:30:01 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:30:01 2020] [debug] 200 OK (0.001569s, 637.349/s).
+[Mon Mar  9 14:30:39 2020] [debug] GET "/".
+[Mon Mar  9 14:30:39 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:30:39 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:30:39 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:30:39 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:30:39 2020] [debug] 200 OK (0.017753s, 56.329/s).
+[Mon Mar  9 14:33:53 2020] [debug] GET "/".
+[Mon Mar  9 14:33:53 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:33:53 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:33:53 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:33:53 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:33:53 2020] [debug] 200 OK (0.001436s, 696.379/s).
+[Mon Mar  9 14:34:41 2020] [debug] GET "/".
+[Mon Mar  9 14:34:41 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:34:41 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:34:41 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:34:41 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:34:41 2020] [debug] 200 OK (0.001553s, 643.915/s).
+[Mon Mar  9 14:35:21 2020] [debug] GET "/".
+[Mon Mar  9 14:35:21 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:35:21 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:35:21 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:35:21 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:35:21 2020] [debug] 200 OK (0.001536s, 651.042/s).
+[Mon Mar  9 14:35:42 2020] [debug] GET "/".
+[Mon Mar  9 14:35:42 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:35:42 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:35:42 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:35:42 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:35:42 2020] [debug] 200 OK (0.001644s, 608.273/s).
+[Mon Mar  9 14:38:17 2020] [debug] GET "/".
+[Mon Mar  9 14:38:17 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:38:17 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:38:17 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:38:17 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:38:17 2020] [debug] 200 OK (0.001535s, 651.466/s).
+[Mon Mar  9 14:40:59 2020] [debug] GET "/".
+[Mon Mar  9 14:40:59 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:40:59 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:40:59 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:40:59 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:40:59 2020] [debug] 200 OK (0.001668s, 599.520/s).
+[Mon Mar  9 14:41:15 2020] [debug] GET "/".
+[Mon Mar  9 14:41:15 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:41:15 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:41:15 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:41:15 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:41:15 2020] [debug] 200 OK (0.001307s, 765.111/s).
+[Mon Mar  9 14:41:20 2020] [debug] GET "/".
+[Mon Mar  9 14:41:20 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:41:20 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:41:20 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:41:20 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:41:20 2020] [debug] 200 OK (0.001629s, 613.874/s).
+[Mon Mar  9 14:42:45 2020] [debug] GET "/".
+[Mon Mar  9 14:42:45 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 14:42:45 2020] [debug] Action not found in controller.
+[Mon Mar  9 14:42:45 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 14:42:45 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 14:42:45 2020] [debug] 200 OK (0.001540s, 649.351/s).
+[Mon Mar  9 15:32:58 2020] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar  9 15:32:58 2020] [debug] GET "/".
+[Mon Mar  9 15:32:58 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 15:32:58 2020] [debug] Action not found in controller.
+[Mon Mar  9 15:32:58 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 15:32:58 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 15:32:58 2020] [debug] 200 OK (0.014282s, 70.018/s).
+[Mon Mar  9 15:36:45 2020] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar  9 15:36:45 2020] [debug] GET "/".
+[Mon Mar  9 15:36:45 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 15:36:45 2020] [debug] Action not found in controller.
+[Mon Mar  9 15:36:45 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 15:36:45 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 15:36:45 2020] [debug] 200 OK (0.009291s, 107.631/s).
+[Mon Mar  9 15:37:52 2020] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar  9 15:37:52 2020] [debug] GET "/".
+[Mon Mar  9 15:37:52 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 15:37:52 2020] [debug] Action not found in controller.
+[Mon Mar  9 15:37:52 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 15:37:52 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 15:37:52 2020] [debug] 200 OK (0.008829s, 113.263/s).
+[Mon Mar  9 19:22:29 2020] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar  9 19:22:29 2020] [debug] GET "/perldoc".
+[Mon Mar  9 19:22:29 2020] [debug] Routing to a callback.
+[Mon Mar  9 19:22:29 2020] [debug] Rendering inline template "6b2246f115629860df8cd0a71aa94518".
+[Mon Mar  9 19:22:29 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 19:22:29 2020] [debug] 200 OK (0.173201s, 5.774/s).
+[Mon Mar  9 19:49:57 2020] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar  9 19:49:57 2020] [debug] GET "/".
+[Mon Mar  9 19:49:57 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 19:49:57 2020] [debug] Action not found in controller.
+[Mon Mar  9 19:49:57 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 19:49:57 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 19:49:57 2020] [debug] 200 OK (0.008626s, 115.929/s).
+[Mon Mar  9 22:05:59 2020] [debug] GET "/".
+[Mon Mar  9 22:05:59 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 22:05:59 2020] [debug] Action not found in controller.
+[Mon Mar  9 22:05:59 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 22:05:59 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 22:05:59 2020] [debug] 200 OK (0.013280s, 75.301/s).
+[Mon Mar  9 22:06:56 2020] [debug] GET "/".
+[Mon Mar  9 22:06:56 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 22:06:56 2020] [debug] Action not found in controller.
+[Mon Mar  9 22:06:56 2020] [debug] Rendering cached template "notifs/welcome.html.ep".
+[Mon Mar  9 22:06:56 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar  9 22:06:56 2020] [debug] 200 OK (0.001622s, 616.523/s).
+[Mon Mar  9 22:06:59 2020] [debug] POST "/notifs".
+[Mon Mar  9 22:06:59 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 22:06:59 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 22:06:59 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 22:06:59 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 22:06:59 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 22:06:59 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 22:06:59 2020] [debug] 404 Not Found (0.058868s, 16.987/s).
+[Mon Mar  9 22:07:12 2020] [info] Listening at "http://localhost:3030".
+[Mon Mar  9 22:07:17 2020] [debug] POST "/notifs".
+[Mon Mar  9 22:07:17 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 22:07:17 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 22:07:17 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 22:07:17 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 22:07:17 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 22:07:17 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 22:07:17 2020] [debug] 404 Not Found (0.043395s, 23.044/s).
+[Mon Mar  9 22:08:16 2020] [debug] POST "/notifs".
+[Mon Mar  9 22:08:16 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 22:08:16 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 22:08:16 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 22:08:16 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 22:08:16 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 22:08:16 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 22:08:16 2020] [debug] 404 Not Found (0.043046s, 23.231/s).
+[Mon Mar  9 22:10:33 2020] [debug] POST "/notifs".
+[Mon Mar  9 22:10:33 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 22:10:33 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 22:10:33 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 22:10:33 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 22:10:33 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 22:10:33 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 22:10:33 2020] [debug] 404 Not Found (0.057353s, 17.436/s).
+[Mon Mar  9 22:11:26 2020] [debug] GET "/".
+[Mon Mar  9 22:11:26 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 22:11:26 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 22:11:26 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 22:11:26 2020] [debug] 200 OK (0.005634s, 177.494/s).
+[Mon Mar  9 22:11:40 2020] [debug] POST "/notifs".
+[Mon Mar  9 22:11:40 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 22:11:40 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 22:11:40 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 22:11:40 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 22:11:40 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 22:11:40 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 22:11:40 2020] [debug] 404 Not Found (0.014351s, 69.682/s).
+[Mon Mar  9 22:24:22 2020] [debug] GET "/".
+[Mon Mar  9 22:24:22 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 22:24:22 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 22:24:22 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 22:24:22 2020] [debug] 200 OK (0.014209s, 70.378/s).
+[Mon Mar  9 22:24:39 2020] [debug] POST "/notifs".
+[Mon Mar  9 22:24:39 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 22:24:39 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 22:24:39 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 22:24:39 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 22:24:39 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 22:24:39 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 22:24:39 2020] [debug] 404 Not Found (0.047015s, 21.270/s).
+[Mon Mar  9 23:38:36 2020] [debug] POST "/notifs".
+[Mon Mar  9 23:38:36 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 23:38:36 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 23:38:36 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 23:38:36 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 23:38:36 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 23:38:36 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 23:38:36 2020] [debug] 404 Not Found (0.151612s, 6.596/s).
+[Mon Mar  9 23:38:42 2020] [debug] GET "/".
+[Mon Mar  9 23:38:42 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Mon Mar  9 23:38:42 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Mon Mar  9 23:38:42 2020] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar  9 23:38:42 2020] [debug] 200 OK (0.023981s, 41.700/s).
+[Mon Mar  9 23:38:49 2020] [debug] POST "/notifs".
+[Mon Mar  9 23:38:49 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 23:38:49 2020] [debug] Template "notifs/send.html.ep" not found.
+[Mon Mar  9 23:38:49 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 23:38:49 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 23:38:49 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 23:38:49 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 23:38:49 2020] [debug] 404 Not Found (0.041489s, 24.103/s).
+[Mon Mar  9 23:50:22 2020] [debug] POST "/notifs".
+[Mon Mar  9 23:50:22 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 23:50:22 2020] [debug] Rendering template "notifs/send.html.ep".
+[Mon Mar  9 23:50:22 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 23:50:22 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 23:50:22 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 23:50:22 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 23:50:22 2020] [debug] 404 Not Found (0.140153s, 7.135/s).
+[Mon Mar  9 23:56:38 2020] [debug] POST "/notifs".
+[Mon Mar  9 23:56:38 2020] [debug] Action "send" is not allowed.
+[Mon Mar  9 23:56:38 2020] [debug] Rendering template "notifs/send.html.ep".
+[Mon Mar  9 23:56:38 2020] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar  9 23:56:38 2020] [debug] Template "not_found.html.ep" not found.
+[Mon Mar  9 23:56:38 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Mar  9 23:56:38 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Mar  9 23:56:38 2020] [debug] 404 Not Found (0.040265s, 24.835/s).
+[Tue Mar 10 00:00:04 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:00:04 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:00:04 2020] [error] Can't locate object method "queue" via package "self" (perhaps you forgot to load "self"?) at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 19.
+
+[Tue Mar 10 00:00:04 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:00:04 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:00:04 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:00:04 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:00:04 2020] [debug] 500 Internal Server Error (0.068374s, 14.625/s).
+[Tue Mar 10 00:03:29 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:03:29 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:03:29 2020] [error] Can't locate object method "queue" via package "self" (perhaps you forgot to load "self"?) at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 19.
+
+[Tue Mar 10 00:03:29 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:03:29 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:03:29 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:03:29 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:03:29 2020] [debug] 500 Internal Server Error (0.148525s, 6.733/s).
+[Tue Mar 10 00:08:41 2020] [debug] GET "/".
+[Tue Mar 10 00:08:41 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Tue Mar 10 00:08:41 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Tue Mar 10 00:08:41 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 00:08:41 2020] [debug] 200 OK (0.023999s, 41.668/s).
+[Tue Mar 10 00:08:47 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:08:47 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:08:47 2020] [error] Can't locate object method "queue" via package "self" (perhaps you forgot to load "self"?) at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 19.
+
+[Tue Mar 10 00:08:47 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:08:47 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:08:47 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:08:47 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:08:47 2020] [debug] 500 Internal Server Error (0.147227s, 6.792/s).
+[Tue Mar 10 00:10:43 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:10:43 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:10:43 2020] [error] Can't locate object method "queue" via package "self" (perhaps you forgot to load "self"?) at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 18.
+
+[Tue Mar 10 00:10:43 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:10:43 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:10:43 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:10:43 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:10:43 2020] [debug] 500 Internal Server Error (0.076717s, 13.035/s).
+[Tue Mar 10 00:11:10 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:11:10 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:11:10 2020] [error] Can't locate object method "queue" via package "self" (perhaps you forgot to load "self"?) at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 18.
+
+[Tue Mar 10 00:11:10 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:11:10 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:11:10 2020] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:11:10 2020] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:11:10 2020] [debug] 500 Internal Server Error (0.021117s, 47.355/s).
+[Tue Mar 10 00:12:10 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:12:10 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:12:10 2020] [error] Can't locate object method "lpush" via package "MessaggioEmail::Model::Queue" at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Model/Queue.pm line 27.
+
+[Tue Mar 10 00:12:10 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:12:10 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:12:10 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:12:10 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:12:10 2020] [debug] 500 Internal Server Error (0.170029s, 5.881/s).
+[Tue Mar 10 00:14:38 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:14:38 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:14:38 2020] [debug] 200 OK (0.012146s, 82.332/s).
+[Tue Mar 10 00:14:38 2020] [error] Can't locate object method "lpush" via package "MessaggioEmail::Model::Queue" at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Model/Queue.pm line 27.
+
+[Tue Mar 10 00:14:38 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:14:38 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:14:38 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:14:38 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:19:27 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:19:27 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:19:27 2020] [debug] 200 OK (0.004361s, 229.305/s).
+[Tue Mar 10 00:19:27 2020] [error] Can't locate object method "Queue=HASH(0x3c9bca0)" via package "MessaggioEmail::Model" at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Model/Queue.pm line 24.
+
+[Tue Mar 10 00:19:27 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 00:19:27 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 00:19:27 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 00:19:27 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 00:20:04 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:20:04 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:20:04 2020] [debug] 200 OK (0.004829s, 207.082/s).
+[Tue Mar 10 00:49:34 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:49:34 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:49:34 2020] [debug] 200 OK (0.001758s, 568.828/s).
+[Tue Mar 10 00:49:39 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:49:39 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:49:39 2020] [debug] 200 OK (0.006328s, 158.028/s).
+[Tue Mar 10 00:49:44 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:49:44 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:49:44 2020] [debug] 200 OK (0.004114s, 243.072/s).
+[Tue Mar 10 00:49:49 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:49:49 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:49:49 2020] [debug] 200 OK (0.000966s, 1035.197/s).
+[Tue Mar 10 00:49:55 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:49:55 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:49:55 2020] [debug] 200 OK (0.002005s, 498.753/s).
+[Tue Mar 10 00:49:59 2020] [debug] POST "/notifs".
+[Tue Mar 10 00:49:59 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 00:49:59 2020] [debug] 200 OK (0.001068s, 936.330/s).
+[Tue Mar 10 01:30:17 2020] [debug] GET "/".
+[Tue Mar 10 01:30:17 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Tue Mar 10 01:30:17 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Tue Mar 10 01:30:17 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 01:30:17 2020] [debug] 200 OK (0.016353s, 61.151/s).
+[Tue Mar 10 01:30:24 2020] [debug] GET "/notifs/all".
+[Tue Mar 10 01:30:24 2020] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 01:30:24 2020] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 01:30:24 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 01:30:24 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 01:30:24 2020] [debug] 404 Not Found (0.051257s, 19.510/s).
+[Tue Mar 10 01:31:18 2020] [debug] GET "/".
+[Tue Mar 10 01:31:18 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Tue Mar 10 01:31:18 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Tue Mar 10 01:31:18 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 01:31:18 2020] [debug] 200 OK (0.059598s, 16.779/s).
+[Tue Mar 10 01:31:23 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:31:23 2020] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 01:31:23 2020] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 01:31:23 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 01:31:23 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 01:31:23 2020] [debug] 404 Not Found (0.130437s, 7.667/s).
+[Tue Mar 10 01:32:17 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:32:17 2020] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 10 01:32:17 2020] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 10 01:32:17 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 01:32:17 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 01:32:17 2020] [debug] 404 Not Found (0.042637s, 23.454/s).
+[Tue Mar 10 01:34:29 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:34:29 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:34:29 2020] [error] [rrange] ERR unknown command 'RRANGE',  at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Model/Queue.pm line 40.
+
+[Tue Mar 10 01:34:29 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 01:34:29 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 01:34:29 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 01:34:29 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 01:34:29 2020] [debug] 500 Internal Server Error (0.069933s, 14.299/s).
+[Tue Mar 10 01:35:23 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:35:23 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:35:23 2020] [debug] 200 OK (0.004275s, 233.918/s).
+[Tue Mar 10 01:36:11 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:36:11 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:36:11 2020] [debug] 200 OK (0.003211s, 311.429/s).
+[Tue Mar 10 01:36:24 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:36:24 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:36:24 2020] [debug] 200 OK (0.001019s, 981.354/s).
+[Tue Mar 10 01:39:09 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:39:09 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:39:09 2020] [debug] 200 OK (0.010685s, 93.589/s).
+[Tue Mar 10 01:40:05 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:40:05 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:40:05 2020] [debug] 200 OK (0.010730s, 93.197/s).
+[Tue Mar 10 01:40:37 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:40:37 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:40:37 2020] [error] Can't call method "dumper" on unblessed reference at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 29.
+
+[Tue Mar 10 01:40:37 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 01:40:37 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 01:40:37 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 01:40:37 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 01:40:37 2020] [debug] 500 Internal Server Error (0.193598s, 5.165/s).
+[Tue Mar 10 01:42:41 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:42:41 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:42:41 2020] [debug] 200 OK (0.012172s, 82.156/s).
+[Tue Mar 10 01:47:07 2020] [debug] POST "/notifs".
+[Tue Mar 10 01:47:08 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 01:47:08 2020] [debug] 200 OK (0.015360s, 65.104/s).
+[Tue Mar 10 01:47:08 2020] [error] Malformed JSON: Expected string, array, object, number, boolean or null at line 0, offset 0 at /home/bsv/sites/messagio_email/script/../lib/MessaggioEmail/Controller/Notifs.pm line 20.
+
+[Tue Mar 10 01:47:08 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 01:47:08 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 01:47:08 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 01:47:08 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 01:48:26 2020] [debug] POST "/notifs".
+[Tue Mar 10 01:48:26 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 01:48:26 2020] [debug] 200 OK (0.021155s, 47.270/s).
+[Tue Mar 10 01:48:31 2020] [debug] POST "/notifs".
+[Tue Mar 10 01:48:31 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 01:48:31 2020] [debug] 200 OK (0.007461s, 134.030/s).
+[Tue Mar 10 01:48:36 2020] [debug] POST "/notifs".
+[Tue Mar 10 01:48:36 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 01:48:36 2020] [debug] 200 OK (0.001800s, 555.556/s).
+[Tue Mar 10 01:48:39 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:48:39 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:48:39 2020] [debug] 200 OK (0.005074s, 197.083/s).
+[Tue Mar 10 01:49:29 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:49:29 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:49:29 2020] [debug] 200 OK (0.015713s, 63.642/s).
+[Tue Mar 10 01:49:58 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:49:58 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:49:58 2020] [debug] 200 OK (0.005159s, 193.836/s).
+[Tue Mar 10 01:50:58 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:50:58 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:50:58 2020] [debug] 200 OK (0.007479s, 133.708/s).
+[Tue Mar 10 01:51:00 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:51:00 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:51:00 2020] [debug] 200 OK (0.001879s, 532.198/s).
+[Tue Mar 10 01:52:21 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:52:21 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:52:21 2020] [debug] 200 OK (0.007934s, 126.040/s).
+[Tue Mar 10 01:53:10 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:53:10 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:53:10 2020] [debug] 200 OK (0.001185s, 843.882/s).
+[Tue Mar 10 01:53:55 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:53:55 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:53:55 2020] [debug] 200 OK (0.006685s, 149.589/s).
+[Tue Mar 10 01:56:47 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:56:47 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:56:47 2020] [debug] 200 OK (0.017765s, 56.290/s).
+[Tue Mar 10 01:59:46 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 01:59:46 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 01:59:46 2020] [debug] 200 OK (0.004775s, 209.424/s).
+[Tue Mar 10 02:00:06 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:00:06 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:00:06 2020] [debug] 200 OK (0.012599s, 79.371/s).
+[Tue Mar 10 02:00:09 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:00:09 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:00:09 2020] [debug] 200 OK (0.004503s, 222.074/s).
+[Tue Mar 10 02:01:28 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:01:28 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:01:28 2020] [debug] 200 OK (0.008485s, 117.855/s).
+[Tue Mar 10 02:03:50 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:03:50 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:03:50 2020] [debug] 200 OK (0.004343s, 230.256/s).
+[Tue Mar 10 02:06:30 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:06:30 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:06:30 2020] [debug] 200 OK (0.015346s, 65.164/s).
+[Tue Mar 10 02:07:40 2020] [debug] GET "/".
+[Tue Mar 10 02:07:40 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "welcome".
+[Tue Mar 10 02:07:40 2020] [debug] Rendering template "notifs/welcome.html.ep".
+[Tue Mar 10 02:07:40 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 02:07:40 2020] [debug] 200 OK (0.013270s, 75.358/s).
+[Tue Mar 10 02:07:53 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:07:53 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:07:53 2020] [debug] 200 OK (0.004621s, 216.403/s).
+[Tue Mar 10 02:10:13 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:10:13 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:10:13 2020] [debug] 200 OK (0.005995s, 166.806/s).
+[Tue Mar 10 02:10:35 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:10:35 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:10:35 2020] [debug] 200 OK (0.021060s, 47.483/s).
+[Tue Mar 10 02:11:11 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:11:11 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:11:11 2020] [debug] 200 OK (0.019716s, 50.720/s).
+[Tue Mar 10 02:12:37 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:12:37 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:12:37 2020] [debug] 200 OK (0.016640s, 60.096/s).
+[Tue Mar 10 02:15:58 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:15:58 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:15:58 2020] [debug] 200 OK (0.014615s, 68.423/s).
+[Tue Mar 10 02:17:01 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:17:01 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:17:01 2020] [debug] 200 OK (0.006613s, 151.217/s).
+[Tue Mar 10 02:18:16 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:18:16 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:18:16 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:18:16 2020] [error] Can't modify constant item in scalar assignment at template notifs/queueshow.html.ep line 1, at EOF
+Global symbol "$data" requires explicit package name at template notifs/queueshow.html.ep line 3.
+syntax error at template notifs/queueshow.html.ep line 8, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 9, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 10, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 11, near "}$_M "
+1: % layout 'default', list = $list || [];
+2: % title 'Тестовое задание для MESSAGGIO';
+3: <%= dumper $data %>
+4: <h2>Очередь сообщений (неразобранная демоном)</h2>
+5: 
+6: <% for my $item ( @$list ) {%>
+
+[Tue Mar 10 02:18:16 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 02:18:16 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 02:18:16 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 02:18:16 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 02:18:16 2020] [debug] 500 Internal Server Error (0.196229s, 5.096/s).
+[Tue Mar 10 02:18:35 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:18:35 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:18:35 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:18:35 2020] [error] Can't modify constant item in scalar assignment at template notifs/queueshow.html.ep line 1, at EOF
+syntax error at template notifs/queueshow.html.ep line 8, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 9, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 10, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 11, near "}$_M "
+1: % layout 'default', list = $list || [];
+2: % title 'Тестовое задание для MESSAGGIO';
+3: <%= dumper $list %>
+4: <h2>Очередь сообщений (неразобранная демоном)</h2>
+5: 
+6: <% for my $item ( @$list ) {%>
+
+[Tue Mar 10 02:18:35 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 02:18:35 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 02:18:35 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 02:18:35 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 02:18:35 2020] [debug] 500 Internal Server Error (0.081397s, 12.285/s).
+[Tue Mar 10 02:19:39 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:19:39 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:19:39 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:19:39 2020] [error] syntax error at template notifs/queueshow.html.ep line 8, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 9, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 10, near "}$_M "
+syntax error at template notifs/queueshow.html.ep line 11, near "}$_M "
+3: <%= dumper $list %>
+4: <h2>Очередь сообщений (неразобранная демоном)</h2>
+5: 
+6: <% for my $item ( @$list ) {%>
+7:     <div class="item_in_queue">
+8:         <p><% $item->{ subject }%></p>
+9:         <p><% $item->{ sender }%></p>
+10:         <p><% $item->{ to }%></p>
+11:         <p><% $item->{ message }%></p>
+12:         <p> </p>
+13:     </div>
+
+[Tue Mar 10 02:19:39 2020] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 10 02:19:39 2020] [debug] Template "exception.html.ep" not found.
+[Tue Mar 10 02:19:39 2020] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Tue Mar 10 02:19:39 2020] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Tue Mar 10 02:19:39 2020] [debug] 500 Internal Server Error (0.296685s, 3.371/s).
+[Tue Mar 10 02:20:58 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:20:58 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:20:58 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:20:58 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 02:20:58 2020] [debug] 200 OK (0.055611s, 17.982/s).
+[Tue Mar 10 02:21:22 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:21:22 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:21:22 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:21:22 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 02:21:22 2020] [debug] 200 OK (0.015371s, 65.058/s).
+[Tue Mar 10 02:22:58 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:22:58 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:22:58 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:22:58 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 02:22:58 2020] [debug] 200 OK (0.015658s, 63.865/s).
+[Tue Mar 10 02:23:14 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:23:14 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:23:14 2020] [debug] Rendering template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:23:14 2020] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 10 02:23:14 2020] [debug] 200 OK (0.011278s, 88.668/s).
+[Tue Mar 10 02:25:09 2020] [debug] POST "/notifs".
+[Tue Mar 10 02:25:09 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "sendto".
+[Tue Mar 10 02:25:09 2020] [debug] 200 OK (0.003676s, 272.035/s).
+[Tue Mar 10 02:25:12 2020] [debug] GET "/notifs/queue".
+[Tue Mar 10 02:25:12 2020] [debug] Routing to controller "MessaggioEmail::Controller::Notifs" and action "queueshow".
+[Tue Mar 10 02:25:12 2020] [debug] Rendering cached template "notifs/queueshow.html.ep".
+[Tue Mar 10 02:25:12 2020] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 10 02:25:12 2020] [debug] 200 OK (0.020144s, 49.643/s).

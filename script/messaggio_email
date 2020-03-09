@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+#use lib::abs qw| ../lib .|;
 
 use FindBin;
 BEGIN { unshift @INC, "$FindBin::Bin/../lib" }

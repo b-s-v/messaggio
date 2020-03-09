@@ -1,0 +1,15 @@
+% layout 'default';
+% title 'Тестовое задание для MESSAGGIO';
+<h2>Очередь сообщений (неразобранная демоном)</h2>
+
+<% for my $item ( @$list ) {%>
+    <div class="item_in_queue">
+        <h5># <%= $item->{ subject }%></h5>
+        <p><%= $item->{ sender }%></p>
+        <p><%= $item->{ to }%></p>
+        <p><%= $item->{ message }%></p>
+        <p> </p>
+    </div>
+<% }%>
+
+

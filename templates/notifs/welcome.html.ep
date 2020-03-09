@@ -1,0 +1,43 @@
+% layout 'default';
+% title 'Тестовое задание для MESSAGGIO';
+<h2>Сервис отправки сообщений</h2>
+<form id="main_form" method="post" action="/notifs"><!--  onsubmit="return send_message()"-->
+<div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample1" type="text" name="sender" />
+        <label class="mdl-textfield__label" for="sample1">Отправитель</label>
+        <span class="mdl-textfield__error">Поле должно быть заполнено</span>
+    </div>
+</div>
+<div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample2" type="text" name="to" pattern=".+" />
+        <label class="mdl-textfield__label" for="sample2">Получатели *</label>
+        <span class="mdl-textfield__error">Поле должно быть заполнено</span>
+    </div>
+</div>
+<div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3" type="text" name="subject" pattern=".+" />
+        <label class="mdl-textfield__label" for="sample3">Тема письма *</label>
+        <span class="mdl-textfield__error">Поле должно быть заполнено</span>
+    </div>
+</div>
+<div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" name="message"></textarea>
+        <label class="mdl-textfield__label" for="sample5">Ваше сообщение *</label>
+        <span class="mdl-textfield__error">Поле должно быть заполнено</span>
+    </div>
+</div>
+<div>
+    <div class="button">
+        <input type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" value="Отправить" />
+    </div>
+</div>
+</form>
+
+<p><a href="/notifs/queue">Список сообщений в очереди</a></p>
+
+
+
