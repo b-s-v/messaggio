@@ -1,0 +1,8 @@
+{
+    "Redis": {
+        "server":     "127.0.0.1",
+        "port":       6379,
+        "name":       "MessaggioEmail_connection_name",
+        "name_queue": "queue_1"
+    }
+}

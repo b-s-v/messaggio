@@ -6,21 +6,24 @@ use Redis;
 
 sub new {
     my $class = shift;
+    my $config_redis = shift;
     my $self = bless {}, $class;
-    $self->_init;
+    $self->_init( $config_redis );
     return $self
 }
 
 sub queue {
     my $self = shift;
     $self->{ redis } //= Redis->new(
-        server => '127.0.0.1:6379',
-        name   => 'MessaggioEmail_connection_name',
+        server => $self->{ config_redis }{server} .':'. $self->{ config_redis }{port},#'127.0.0.1:6379',
+        name   => $self->{ config_redis }{name},#'MessaggioEmail_connection_name',
     );
 }
 
 sub _init {
     my $self = shift;
+    my $config_redis = shift;
+    $self->{ config_redis } = $config_redis;
     $self->queue;
 }
 sub _queue_name { 'queue_1' }
