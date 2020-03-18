@@ -4,5 +4,20 @@
         "port":       6379,
         "name":       "MessaggioEmail_connection_name",
         "name_queue": "queue_1"
+    },
+    "Mail": {
+        "smtp":     "127.0.0.1",
+        "port":     6379,
+        "login":    "baslerov",
+        "password": "queue_1"
+    },
+    "MainDB": {
+        "dbi":      "Pg",
+        "host":     "localhost",
+        "port":     "5432",
+        "db":       "messaggio",
+        "dsn":      "dbi:Pg:database=messaggio;host=localhost;port=5432",
+        "user":     "messaggio",
+        "password": "100200300"
     }
 }

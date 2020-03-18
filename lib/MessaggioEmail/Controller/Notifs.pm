@@ -1,4 +1,5 @@
 package MessaggioEmail::Controller::Notifs;
+
 use Mojo::Base 'Mojolicious::Controller';
 use Mojo::JSON qw(decode_json encode_json);
 use Data::Dumper qw(Dumper);
