@@ -4,6 +4,10 @@ use Mojo::Base 'Mojolicious::Controller';
 use Mojo::JSON qw(decode_json encode_json);
 use Data::Dumper qw(Dumper);
 
+use constant {
+    ITEMS_IN_PAGE => 10,
+};
+
 # This action will render a template
 sub welcome {}
 sub sendto {
@@ -33,7 +37,33 @@ sub queueshow {
     #$c->stash( data => $res );
     $c->render( list => $res );#
 }
-sub list {}
+
+sub list {
+    my $c = shift;
+    my $params      = $c->req->params->to_hash;
+    my $page        = $params->{ page } || 1;
+    my $page_length = $params->{ page_length } || ITEMS_IN_PAGE;
+
+    my ( $items_count ) = $c->dbh->selectrow_array(
+        'SELECT count(*) FROM message.items',
+    );
+    warn "# items_count all in db => ", $c->dumper( $items_count );
+
+    my $pagging = $c->pager->calculate( $page, $page_length, $items_count );
+
+    my $res = $c->dbh->selectall_arrayref(
+        'SELECT * FROM message.items ORDER BY created LIMIT ? OFFSET ?',
+        { Slice => {} },
+        $pagging->{ limit },
+        $pagging->{ offset },
+    );
+    #warn "# res all in db => ", Dumper $res;
+    $c->render(
+        list    => $res,
+        pagging => $pagging,
+    );#
+}
+
 sub item {}
 
 1;

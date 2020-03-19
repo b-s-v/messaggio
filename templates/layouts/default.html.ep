@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="/js/jquery-3.4.1.js"></script>
-  <script src="/js/my.js"></script>
-  <style>
+<head>
+  <title><%= title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="/js/jquery-3.4.1.js"></script>
+<script src="/js/my.js"></script>
+<style>
 body {padding: 0 20px 0 20px; font-family: Roboto, sans serif;}
-  </style>
-  </head>
-  <body><%= content %></body>
+.pagging_item {padding: 2px 7px 3px 7px; text-decoration: none; font-family: monospace;}
+</style>
+</head>
+<body><%= content %></body>
 </html>

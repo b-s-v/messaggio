@@ -27,7 +27,7 @@ function send_message() {
         url: "/notifs",
         data: data
     }).done(function( msg ) {
-        alert( "Data Saved: " + msg );
+        console.log( "Data Saved: " + msg );
         $( '#main_form :submit').attr('disabled', false );
     }).fail(function( jqXHR, textStatus ) {
         alert( "Request failed: " + textStatus );

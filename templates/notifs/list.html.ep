@@ -1,0 +1,53 @@
+% layout 'default';
+% title 'Тестовое задание для MESSAGGIO :. Список сообщений из базы';
+<h2>Список сообщений из базы</h2>
+
+<p>
+    <% if ($pagging->{ page_first }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_first } %>" title="page_first <%= $pagging->{ page_first } %>" class="pagging_item">&lt;&lt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+    <% if ($pagging->{ page_previous }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_previous } %>" title="<%= $pagging->{ page_previous } %>" class="pagging_item">&lt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+    <% if ($pagging->{ page_current }) { %>
+        <span><%= $pagging->{ page_current } %></span>
+    <% } %>
+    <% if ($pagging->{ page_next }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_next } %>" title="<%= $pagging->{ page_next } %>" class="pagging_item">&gt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+    <% if ($pagging->{ page_last }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_last } %>" title="page_last <%= $pagging->{ page_last } %>" class="pagging_item">&gt;&gt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+</p>
+
+<% my $number = ($pagging->{ page_current } - 1) * $pagging->{ limit } + 1; %>
+<% for my $item ( @$list ) {%>
+    <div class="item_in_queue">
+        <h5 id="<%= $item->{ id }%>">#<%= $number%> <a href="/notifs/<%= $item->{ id }%>"><%= $item->{ subject }%></a></h5>
+        <p><b>sender</b>: <%= $item->{ sender }%><br>
+        <b>to</b>: <%= join ', ', @{ $item->{ to } }%><br>
+        <b>message</b>: <%= $item->{ message }%><br>
+        <b>status</b>: <%= $item->{ status }%> (<%= $item->{ created }%>)</p>
+        <p> </p>
+    </div>
+    <% $number = $number + 1; %>
+<% }%>
+
+
+<p>
+    <% if ($pagging->{ page_first }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_first } %>" title="page_first <%= $pagging->{ page_first } %>" class="pagging_item">&lt;&lt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+    <% if ($pagging->{ page_previous }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_previous } %>" title="<%= $pagging->{ page_previous } %>" class="pagging_item">&lt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+    <% if ($pagging->{ page_current }) { %>
+        <span><%= $pagging->{ page_current } %></span>
+    <% } %>
+    <% if ($pagging->{ page_next }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_next } %>" title="<%= $pagging->{ page_next } %>" class="pagging_item">&gt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+    <% if ($pagging->{ page_last }) { %>
+        <a href="/notifs?page=<%= $pagging->{ page_last } %>" title="page_last <%= $pagging->{ page_last } %>" class="pagging_item">&gt;&gt;</a>
+    <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
+</p>

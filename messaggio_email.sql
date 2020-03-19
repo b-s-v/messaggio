@@ -44,12 +44,19 @@ ALTER FUNCTION public.generate_uuid ()
 create schema message;
 
 CREATE TABLE message.items (
-    "id"      UUID  DEFAULT generate_uuid() NOT NULL,
-    "sender"  VARCHAR NOT NULL,
-    "to"      VARCHAR[] NOT NULL,
-    "message" VARCHAR NOT NULL,
-    "status"  BOOL,
-    "created" TIMESTAMP(0) WITHOUT TIME ZONE NOT NULL,
-    CONSTRAINT message_id_pk PRIMARY KEY(id)
-);
+  id UUID DEFAULT generate_uuid() NOT NULL,
+  sender VARCHAR,
+  subject VARCHAR NOT NULL,
+  "to" VARCHAR [] NOT NULL,
+  message VARCHAR NOT NULL,
+  status BOOLEAN,
+  created TIMESTAMP(0) WITH TIME ZONE DEFAULT now() NOT NULL,
+  CONSTRAINT message_id_pk PRIMARY KEY(id)
+)
+WITH (oids = false);
 
+CREATE INDEX items_idx ON message.items
+  USING btree (created);
+
+ALTER TABLE message.items
+  OWNER TO messaggio;
