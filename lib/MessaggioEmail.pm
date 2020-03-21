@@ -20,10 +20,12 @@ sub startup {
     # Normal route to controller
     #$r->get('/')->to('example#welcome');
     $r->get('/')->to('notifs#welcome');
-    $r->get( '/notifs')->to('notifs#list');
+    #$r->get( '/notifs')->to('notifs#list');
+    $r->get( '/notifs')->to('notifs#list_ajax');
     $r->post('/notifs')->to('notifs#sendto');
+    $r->post( '/notifs/list_part_ajax')->to('notifs#list_part_ajax');
     $r->get('/notifs/queue')->to('notifs#queueshow');
-    #$r->get('/notifs/:id')->to('notifs#item');
+    $r->get('/notifs/:id')->to('notifs#item');
 }
 
 sub init {

@@ -9,7 +9,8 @@ use warnings;
 use lib::abs qw| ../lib .|;
 use FindBin qw( $Bin );
 
-use Proc::Daemon; use Proc::PID::File;
+use Proc::Daemon;
+use Proc::PID::File;
 use Config::JSON;
 use Data::Dumper qw( Dumper );
 use MessaggioEmail::Model::Message;

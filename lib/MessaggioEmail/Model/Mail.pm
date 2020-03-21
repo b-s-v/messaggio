@@ -4,6 +4,10 @@ use strict;
 use warnings;
 
 use Email::Sender;
+use Email::Sender::Simple qw(sendmail);
+use Email::Sender::Transport::SMTP qw();
+use Try::Tiny;
+use Data::Dumper qw( Dumper );
 
 sub new {
     my $class  = shift;
@@ -27,6 +31,37 @@ sub _config {
 
 sub send {
     my $self = shift;
+    my $message = shift;
+
+    my $email = Email::Simple->create(
+        header => [
+            From    => $message->{ sender },
+            To      => $message->{ to },#join(',', @{  })baslerov@mail.ru',
+            Subject => $message->{ subject },
+        ],
+        body => $message->{ message },
+    );
+
+    try {
+        my $res = sendmail(
+            $email,
+            {
+                from      => $message->{ sender } || $self->_config->{ smtp }{ from_for_smtp },#'feanor99@mail.ru',
+                transport => Email::Sender::Transport::SMTP->new({
+                    host          => $self->_config->{ smtp }{ host },
+                    port          => $self->_config->{ smtp }{ port },
+                    ssl           => $self->_config->{ smtp }{ ssl },
+                    sasl_username => $self->_config->{ smtp }{ sasl_username },
+                    sasl_password => $self->_config->{ smtp }{ sasl_password },
+                })
+            },
+        );
+        warn "# MessaggioEmail::Model::Mail res of send email =>", Dumper $res;
+        return 1;
+    } catch {
+        warn "ERROR: MessaggioEmail::Model::Mail: sending failed: $_";
+        return 0;
+    };
 }
 
 

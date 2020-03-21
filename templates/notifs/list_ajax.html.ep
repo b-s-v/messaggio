@@ -1,0 +1,144 @@
+% layout 'default';
+% title 'Тестовое задание для MESSAGGIO :. Список сообщений из базы';
+% content_for js_local => begin
+<script>
+
+function parseUrlQuery() {
+    var data = {};
+    if(location.search) {
+        var pair = (location.search.substr(1)).split('&');
+        for(var i = 0; i < pair.length; i ++) {
+            var param = pair[i].split('=');
+            data[param[0]] = param[1];
+        }
+    }
+    return data;
+}
+var getParams = parseUrlQuery();
+var page_current = getParams.page;
+
+function load_content( event, page ) {
+    event = event || window.event;
+    if ( event ) {
+        if (event.stopPropagation) {
+            event.stopPropagation();
+        } else {
+            event.cancelBubble = true;
+        }
+    }
+    console.log(arguments);
+
+    page = event ? event.data.page : null;
+    if ( !page ) {
+        page = page_current ? page_current : null;
+    }
+    console.log(page);
+
+    $.ajax({
+        method: "POST",
+        url: "/notifs/list_part_ajax",
+        data: { 'page': page }
+    }).done(function( data ) {
+        //console.log( "Data load: " + data );
+        //console.log( data );
+        page_current = data.data.pagging.page_current;
+
+        // list
+        render_list( data.data.list, data.data.pagging.number );
+
+        // pagging
+        render_pagging( data.data.pagging );
+
+    }).fail(function( jqXHR, textStatus ) {
+        alert( "Request failed: " + textStatus );
+        $( '#main_form :submit').attr('disabled', false );
+    });
+    console.log("After ajax");
+    return false;
+}
+
+function render_list( list, number ) {
+    $( '#list_block').html('');
+    for (var i = 0; i < list.length; i++) {
+        $( '#list_block').append(
+            '<div class="item_in_db"></div>'
+        ).append(
+            '<p id="'+ list[i].id +'"></p>'
+        ).append(
+            '<span title="status"><img src="/img/thumbnail_'+
+                ( list[i].status ? 'bird' : 'minus')
+            +'.jpg" width="16px" /></span>' +
+            ' #'+ number +'. '+
+            '<span class="'+ (list[i].status ? 'status_good' : 'status_bad') +'">'+ list[i].created +'</span> '+
+            '<a href="/notifs/'+ list[i].id +'">'+ list[i].subject +'</a><br>'+
+            '<b>to</b>: '+ list[i].to.join(', ')
+        );
+        number = number - 1;
+    }
+}
+
+function render_pagging( pagging ) {
+    $('.pagging_panel').html('');
+    $('.pagging_panel').append(
+        (
+            pagging.page_first
+            ? $('<a href="/notifs?page='+ pagging.page_first +'" title="page_first '+ pagging.page_first +'" class="pagging_item">&lt;&lt;</a>').on(
+                'click',
+                {'page': pagging.page_first},
+                load_content
+            )
+            : '<span class="pagging_item">&nbsp;</span>'
+        )
+    ).append(' ').append(
+        (
+            pagging.page_previous
+            ? $('<a href="/notifs?page='+ pagging.page_previous +'" title="'+ pagging.page_previous +'" class="pagging_item">&lt;</a>').on(
+                'click',
+                {'page': pagging.page_previous},
+                load_content
+            )
+            : '<span class="pagging_item">&nbsp;</span>'
+        )
+    ).append(' ').append(
+        (
+            pagging.page_current
+            ? '<span class="page_current">'+ pagging.page_current +'</span>'
+            : ''
+        )
+    ).append(' ').append(
+        (
+            pagging.page_next
+            ? $('<a href="/notifs?page='+ pagging.page_next +'" title="'+ pagging.page_next +'" class="pagging_item">&gt;</a>').on(
+                'click',
+                {'page': pagging.page_next},
+                load_content
+            )
+            : '<span class="pagging_item">&nbsp;</span>'
+        )
+    ).append(' ').append(
+        (
+            pagging.page_last
+            ? $('<a href="/notifs?page='+ pagging.page_last +'" title="page_last '+ pagging.page_last +'" class="pagging_item">&gt;&gt;</a>').on(
+                'click',
+                {'page': pagging.page_last},
+                load_content
+            )
+            : '<span class="pagging_item">&nbsp;</span>'
+        )
+    );
+}
+
+$(function() {
+    load_content();
+});
+</script>
+% end
+
+
+<p><a href="/">На главную</a></p>
+
+<h2>Список сообщений из базы</h2>
+
+<div class="pagging_panel"></div>
+<div id="list_block"></div>
+<div class="pagging_panel"></div>

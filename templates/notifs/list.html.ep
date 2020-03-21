@@ -1,5 +1,7 @@
 % layout 'default';
 % title 'Тестовое задание для MESSAGGIO :. Список сообщений из базы';
+<p><a href="/">На главную</a></p>
+
 <h2>Список сообщений из базы</h2>
 
 <p>
@@ -20,17 +22,24 @@
     <% } else { %><span class="pagging_item">&nbsp;</span><% } %>
 </p>
 
-<% my $number = ($pagging->{ page_current } - 1) * $pagging->{ limit } + 1; %>
+<% my $number = $pagging->{ number }; %>
 <% for my $item ( @$list ) {%>
-    <div class="item_in_queue">
-        <h5 id="<%= $item->{ id }%>">#<%= $number%> <a href="/notifs/<%= $item->{ id }%>"><%= $item->{ subject }%></a></h5>
-        <p><b>sender</b>: <%= $item->{ sender }%><br>
-        <b>to</b>: <%= join ', ', @{ $item->{ to } }%><br>
-        <b>message</b>: <%= $item->{ message }%><br>
-        <b>status</b>: <%= $item->{ status }%> (<%= $item->{ created }%>)</p>
-        <p> </p>
+    <div class="item_in_db">
+        <p id="<%= $item->{ id }%>">
+            <% if ( $item->{ status } ) { %>
+                <span title="status" class="status_good"><img src="/img/thumbnail_bird.jpg" width="16px" /></span>
+            <% } else { %>
+                <span title="status" class="status_bad"><img src="/img/thumbnail_minus.jpg" width="16px" /></span>
+            <% } %>
+            #<%= $number%>
+            (<%= $item->{ created }%>)
+            <a href="/notifs/<%= $item->{ id }%>"><%= $item->{ subject }%></a>
+            <br>
+        <!--p><b>sender</b>: <%= $item->{ sender }%><br-->
+            <b>to</b>: <%= join ', ', @{ $item->{ to } }%>
+        <!--b>message</b>: <%= $item->{ message }%><br-->
     </div>
-    <% $number = $number + 1; %>
+    <% $number = $number - 1; %>
 <% }%>
 
 

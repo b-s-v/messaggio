@@ -57,7 +57,7 @@ function submit_toggle() {
 
 var fields_need = ['to','subject','message'];
 $(function() {
-    $( '#main_form :submit').attr('disabled', true );
+    $('#main_form :submit').attr('disabled', true );
     $('#main_form').bind('submit', {}, send_message);
     jQuery.each( fields_need, function( index, value ) {
         $( '#main_form *[name='+ value +']').bind('keyup', function() {

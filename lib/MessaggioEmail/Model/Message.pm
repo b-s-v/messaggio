@@ -13,6 +13,11 @@ use Data::Dumper qw(Dumper);
 use MessaggioEmail::Model::Queue;
 use MessaggioEmail::Model::Mail;
 
+use constant {
+    FIELDS_ALL  => [ qw( sender to subject message ) ],
+    FIELDS_NEED => [ qw(        to subject message ) ],
+};
+
 sub new {
     my $class = shift;
     my $config = shift;
@@ -54,7 +59,7 @@ sub _queue {
 
 sub _mail {
     my $self = shift;
-    state $queue = MessaggioEmail::Model::Queue->new( $self->_config->{ Mail } );
+    state $queue = MessaggioEmail::Model::Mail->new( $self->_config->{ Mail } );
 }
 
 sub _init {
@@ -84,9 +89,9 @@ sub get {
 # Отправить сообщение адресату
 sub send {
     my $self = shift;
-    my $params = shift;
+    my $message = shift;
 
-    return 1;
+    $self->_mail->send( $message );
 }
 
 # Сохранить сообщение в базу и статус обработки
@@ -122,18 +127,27 @@ sub proccess {
     return 0
         unless keys %$message;
 
-    warn "# message => ", Dumper $message;
+    warn "# proccess message => ", Dumper $message;
     $message->{ status } = $self->send( $message );
-    warn "# message send => [$message->{ status }]\n";
+    warn "# proccess message send => [$message->{ status }]\n";
 
     my $status_save = $self->save( $message );
-    warn "# message save => [$status_save]\n";
+    warn "# proccess message save => [$status_save]\n";
     return 1;
 }
 
+sub validate {
+    my $emails = shift;
+    $emails = [ split /\s|\s*,\s*|;|/, $emails ]
+        unless ref $emails;
+    my $status = 1;
+    my $qr_address = qr_address();
+    foreach my $item ( @$emails ) {
+        $status = 0 unless $item =~ m#$qr_address#;
+    }
+}
 
-
-
+sub qr_address { state $qr_address = qr#[^ @]+@[^ @]+\.[a-z]+#i; }
 
 
 

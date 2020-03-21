@@ -6,8 +6,14 @@
         "name_queue": "queue_1"
     },
     "Mail": {
-        "smtp":     "127.0.0.1",
-        "port":     6379,
+        "smtp": {
+            "from_for_smtp":  '',
+            "host":           '',
+            "port":           '',
+            "ssl":            '',
+            "sasl_username":  '',
+            "sasl_password":  ''
+        },
         "login":    "baslerov",
         "password": "queue_1"
     },

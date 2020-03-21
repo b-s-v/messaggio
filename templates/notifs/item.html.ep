@@ -1,0 +1,16 @@
+% layout 'default';
+% title 'Тестовое задание для MESSAGGIO :. Одно сообщение';
+<p><a href="/notifs/">Назад</a></p>
+<h2>Сообщение</h2>
+
+<div class="item_in_db">
+    <p id="<%= $item->{ id }%>">
+        (<%= $item->{ created }%>)
+        [<% if ( $item->{ status } ) { %><span title="status" class="status_good">v</span><% } else { %><span title="status" class="status_bad">-</span><% } %>]
+        <a href="/notifs/<%= $item->{ id }%>"><%= $item->{ subject }%></a><br>
+        <b>sender</b>: <%= $item->{ sender }%><br>
+        <b>to</b>: <%= join ', ', @{ $item->{ to } }%><br>
+        <br>
+        <%== $item->{ message }%>
+    </p>
+</div>
