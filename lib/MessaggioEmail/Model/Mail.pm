@@ -9,6 +9,11 @@ use Email::Sender::Transport::SMTP qw();
 use Try::Tiny;
 use Data::Dumper qw( Dumper );
 
+$SIG{__WARN__} = sub {
+    my $datetime = localtime;
+    warn $datetime, ' ', @_;
+};
+
 sub new {
     my $class  = shift;
     my $config = shift;
@@ -56,10 +61,11 @@ sub send {
                 })
             },
         );
-        warn "# MessaggioEmail::Model::Mail res of send email =>", Dumper $res;
+        warn "# MessaggioEmail::Model::Mail res of send email [$message->{ id }] => [", $res->message, ']';
         return 1;
-    } catch {
-        warn "ERROR: MessaggioEmail::Model::Mail: sending failed: $_";
+    }
+    catch {
+        warn "ERROR: MessaggioEmail::Model::Mail: email [$message->{ id }] sending failed: [$_]";
         return 0;
     };
 }

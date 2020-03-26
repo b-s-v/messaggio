@@ -5,11 +5,17 @@ use lib::abs qw| ../../../lib .|;
 use Mojo::Base 'Mojolicious::Controller';
 use Mojo::JSON qw(decode_json encode_json);
 use Data::Dumper qw(Dumper);
+use UUID;
 
 use MessaggioEmail::Model::Message;
 
 use constant {
     ITEMS_IN_PAGE => 10,
+};
+
+$SIG{__WARN__} = sub {
+    my $datetime = localtime;
+    warn $datetime, ' ', @_;
 };
 
 # This action will render a template
@@ -19,7 +25,9 @@ sub sendto {
     my @fields_all  = @{ MessaggioEmail::Model::Message::FIELDS_ALL() };#qw( sender to subject message );
     my @fields_need = @{ MessaggioEmail::Model::Message::FIELDS_NEED() };#qw(        to subject message );
     my $data = { map { $_ => $c->param( $_ ) } @fields_all };
-    warn "# notifs data ", Dumper $data;
+
+    $data->{ id } = _uuid_generate();
+    #warn "# notifs data ", Dumper $data;
 
     unless ( grep { !$data->{ $_ } } @fields_need ) {
         $c->render(
@@ -32,10 +40,10 @@ sub sendto {
             }
         );
     }
-    warn "# notifs 1";
 
+    warn "# message for queue => ", encode_json $data, "\n";
     my $res = $c->queue->add( encode_json $data );
-    warn "# notifs queue->add res", Dumper $res;
+    warn "# notifs queue->add res => [$res]\n";
 
     # Render template "example/welcome.html.ep" with message
     $c->render(
@@ -43,6 +51,7 @@ sub sendto {
             success => 1,
             params  => $c->req->params->to_hash,
             data    => {
+                id     => $data->{ id },
                 result => $res,
                 str    => 'DATA_INTO_QUEUE_ADDED'
             }
@@ -50,12 +59,21 @@ sub sendto {
     );
 }
 
+sub _uuid_generate {
+     my $uuid;
+     my $string;
+     UUID::generate( $uuid );
+     UUID::unparse( $uuid, $string );
+     return $string;
+}
+
 sub queueshow {
     my $c = shift;
     my $res = $c->queue->all() || [];
     $res = [ map { decode_json $_ } @$res ];
-    warn "# res all in queue => ", Dumper $res;
+    #warn "# res all in queue => ", Dumper $res;
     #$c->stash( data => $res );
+
     $c->render( list => $res );#
 }
 
@@ -68,7 +86,7 @@ sub list {
     my ( $items_count ) = $c->dbh->selectrow_array(
         'SELECT count(*) FROM message.items',
     );
-    warn "# items_count all in db => ", $c->dumper( $items_count );
+    #warn "# items_count all in db => ", $c->dumper( $items_count );
 
     my $pagging = $c->pager->calculate( $page, $page_length, $items_count );
 
@@ -79,6 +97,7 @@ sub list {
         $pagging->{ offset },
     );
     #warn "# res all in db => ", Dumper $res;
+
     $c->render(
         list    => $res,
         pagging => $pagging,
@@ -94,19 +113,20 @@ sub list_ajax {
     my ( $items_count ) = $c->dbh->selectrow_array(
         'SELECT count(*) FROM message.items',
     );
-    warn "# page[$page] items_count all in db => ", $c->dumper( $items_count );
+    #warn "# page[$page] items_count all in db => ", $c->dumper( $items_count );
 
     my $pagging = $c->pager->calculate( $page, $page_length, $items_count );
     if ( $page > $pagging->{ page_last_redirect } ) {
-        warn "# page_last redirect_to => ", $pagging->{ page_last_redirect };
+        #warn "# page_last redirect_to => ", $pagging->{ page_last_redirect };
         $c->redirect_to('/notifs?page='. $pagging->{ page_last_redirect });
     }
     elsif ( $page < $pagging->{ page_first_redirect } ) {
-        warn "# page_first redirect_to => ", $pagging->{ page_first_redirect };
+        #warn "# page_first redirect_to => ", $pagging->{ page_first_redirect };
         $c->redirect_to('/notifs?page='. $pagging->{ page_first_redirect });
     }
     $c->render;
 }
+
 sub list_part_ajax {
     my $c = shift;
     my $params      = $c->req->params->to_hash;
@@ -116,7 +136,7 @@ sub list_part_ajax {
     my ( $items_count ) = $c->dbh->selectrow_array(
         'SELECT count(*) FROM message.items',
     );
-    warn "# page[$page] items_count all in db => ", $c->dumper( $items_count );
+    #warn "# page[$page] items_count all in db => ", $c->dumper( $items_count );
 
     my $pagging = $c->pager->calculate( $page, $page_length, $items_count );
 
@@ -127,6 +147,7 @@ sub list_part_ajax {
         $pagging->{ offset },
     );
     #warn "# res all in db => ", Dumper $res;
+
     $c->render(
         json => {
             success => 1,
@@ -144,14 +165,14 @@ sub item {
     my $params = $c->req->params->to_hash;
     my $stash  = $c->stash;
     my $id = $stash->{ id };
-    warn $c->dumper( $id );
+    #warn $c->dumper( $id );
 
     my $res = $c->dbh->selectrow_hashref(
         'SELECT * FROM message.items WHERE id = ?',
         { Slice => {} },
         $id,
     );
-    warn "# res one in db => ", $c->dumper( $res );
+    #warn "# res one in db => ", $c->dumper( $res );
 
     $res->{ message } =~ s#\n#<br />#msg;
     $c->render( item => $res );

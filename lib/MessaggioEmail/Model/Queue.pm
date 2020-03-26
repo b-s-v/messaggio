@@ -5,6 +5,11 @@ use warnings;
 use feature qw{ state };
 use Redis;
 
+$SIG{__WARN__} = sub {
+    my $datetime = localtime;
+    warn $datetime, ' ', @_;
+};
+
 sub new {
     my $class = shift;
     my $config = shift;

@@ -18,6 +18,11 @@ use constant {
     FIELDS_NEED => [ qw(        to subject message ) ],
 };
 
+$SIG{__WARN__} = sub {
+    my $datetime = localtime;
+    warn $datetime, ' ', @_;
+};
+
 sub new {
     my $class = shift;
     my $config = shift;
@@ -40,9 +45,9 @@ sub _dbh {
     ) or die $DBI::errstr;
 
     my $state = $self->{ dbh }->state;
-    warn "# state connect to db [$state]\n";
+    #warn "# state connect to db [$state]\n";
     unless ( $state eq '00000' ) {
-        warn "# reconnect\n";
+        #warn "# reconnect\n";
         $self->{ dbh } = DBI->connect(
             $self->_config->{ MainDB }{ dsn      },
             $self->_config->{ MainDB }{ user     },
@@ -78,7 +83,7 @@ sub _config {
 sub get {
     my $self = shift;
     my $message = $self->_queue->get;#Encode::encode( "utf8",  )
-    warn "get queue => [$message]"
+    warn "get queue => [$message]\n"
         if $message;
     return $message
          ? decode_json $message
@@ -98,23 +103,28 @@ sub send {
 sub save {
     my $self = shift;
     my $params = shift;
-    warn "#[$$] params => ", Dumper $params;
+    #warn "#[$$] params => ", Dumper $params;
     $params->{ to } = [ $params->{ to } ]
         unless ref $params->{ to };
 
-    my @fields = qw( sender subject to message status );
+    my @fields = @{ FIELDS_ALL() };#qw( sender subject to message status );
+    unshift @fields, 'id'
+        if $params->{ id };
+    push @fields, 'status'
+        if $params->{ status };
+
 
     my @values = map {
         $params->{ $_ }
     } @fields;
-    warn "# values => ", Dumper \@values;
+    #warn "# values for save => ", Dumper \@values;
 
     my $sql = q!
 INSERT INTO message.items ( !. join( ', ', map {'"'. $_ .'"'} @fields ) .q! )
 VALUES ( !. join( ', ', map { '?' } @fields ) .q! )
 RETURNING id
     !;
-    warn "# sql [$sql]\n";
+    #warn "# sql [$sql]\n";
 
     my $id = $self->_dbh->do( $sql, {}, @values ) or warn $self->_dbh->errstr;
 
@@ -127,12 +137,12 @@ sub proccess {
     return 0
         unless keys %$message;
 
-    warn "# proccess message => ", Dumper $message;
+    warn "# proccess message [$message->{ id }]\n";
     $message->{ status } = $self->send( $message );
-    warn "# proccess message send => [$message->{ status }]\n";
+    warn "# proccess message [$message->{ id }] send => [$message->{ status }]\n";
 
     my $status_save = $self->save( $message );
-    warn "# proccess message save => [$status_save]\n";
+    warn "# proccess message [$message->{ id }] save => [$status_save]\n";
     return 1;
 }
 

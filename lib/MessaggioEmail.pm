@@ -8,6 +8,11 @@ use DBI;
 use MessaggioEmail::Model::Queue;
 use MessaggioEmail::Model::Pager;
 
+$SIG{__WARN__} = sub {
+    my $datetime = localtime;
+    warn $datetime, ' ', @_;
+};
+
 # This method will run once at server start
 sub startup {
     my $c = shift;
@@ -34,7 +39,7 @@ sub init {
     $c->secrets(['Messaggio#!>_Email']);
 
     # Documentation browser under "/perldoc"
-    $c->plugin('PODRenderer');
+    #$c->plugin('PODRenderer');
 
     $c->helper( dumper => sub {
         shift;
@@ -43,7 +48,6 @@ sub init {
 
     state $config = $c->plugin('JSONConfig');
     $c->helper( config => sub { $config });
-    #$c->helper( 'pager' );
 
     $c->helper( queue => sub {
         state $queue = MessaggioEmail::Model::Queue->new( $c->config->{ Redis } );

@@ -7,12 +7,12 @@
     },
     "Mail": {
         "smtp": {
-            "from_for_smtp":  '',
-            "host":           '',
-            "port":           '',
-            "ssl":            '',
-            "sasl_username":  '',
-            "sasl_password":  ''
+            "from_for_smtp":  "",
+            "host":           "smtp.gmail.com",
+            "port":           465,
+            "ssl":            1,
+            "sasl_username":  "",
+            "sasl_password":  ""
         },
         "login":    "baslerov",
         "password": "queue_1"

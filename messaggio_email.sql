@@ -22,7 +22,8 @@ BEGIN
     --- O - Object type segment (2 bytes)
     --- 0 - Empty segment (2 bytes)
     --- R - Random segment (4 bytes)
-    v_uuid := v_uuid || to_hex(EXTRACT(EPOCH FROM v_ts)::integer)::text
+    v_uuid :=   v_uuid
+             || to_hex(EXTRACT(EPOCH FROM v_ts)::integer)::text
              || lpad(to_hex((trunc(v_ms * 1000000) - trunc(v_ms) * 1000000)::integer)::text,6,'0')
              || v_apptype
              || v_objtype
