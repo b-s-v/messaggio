@@ -12,7 +12,6 @@
 Например:
 sudo -u postgres psql
 # и копируем и вставляем из файла
-\d
 
 cd ~
 git clone git@github.com:b-s-v/messaggio.git messagio_email
