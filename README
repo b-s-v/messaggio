@@ -1,0 +1,22 @@
+Это тестовый проект.
+Система отправки сообщений e-mail посредством очереди и сохранением в базу.
+
+Используется Redis, PostgreSQL, Mojolicious.
+
+Необходимые модули записаны в cpanfile.
+
+Надо заполнить конфиг актуальными данными messagio_email/messaggio_email.json
+Надо создать структуру базы из messagio_email/messaggio_email.sql
+Надо поднять и настроить на домен сервер на Mojolicious и демона обрабатывающего очередь.
+
+Например:
+sudo -u postgres psql
+# и копируем и вставляем из файла
+\d
+
+cd ~
+git clone git@github.com:b-s-v/messaggio.git messagio_email
+cd ~/messagio_email
+
+morbo -l http://localhost:3030 ./script/messaggio_email
+cd ~/messagio_email && messagio_email/script/messaggio_email.d

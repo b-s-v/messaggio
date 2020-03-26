@@ -5,8 +5,12 @@
 
 <div class="item_in_db">
     <p id="<%= $item->{ id }%>">
+        <% if ( $item->{ status } ) { %>
+            <span title="status" class="status_good"><img src="/img/thumbnail_bird.jpg" width="16px" /></span>
+        <% } else { %>
+            <span title="status" class="status_bad"><img src="/img/thumbnail_minus.jpg" width="16px" /></span>
+        <% } %>
         (<%= $item->{ created }%>)
-        [<% if ( $item->{ status } ) { %><span title="status" class="status_good">v</span><% } else { %><span title="status" class="status_bad">-</span><% } %>]
         <a href="/notifs/<%= $item->{ id }%>"><%= $item->{ subject }%></a><br>
         <b>sender</b>: <%= $item->{ sender }%><br>
         <b>to</b>: <%= join ', ', @{ $item->{ to } }%><br>
